@@ -54,12 +54,12 @@ export const Button = (props) => {
       id={props.id}
       className={` transition-all duration-300 py-[8px] px-[16px] text-[20px] font-medium leading-none ${
         !props.invert
-          ? `${buttonConfig[props.varient].bgColor} ${
-              buttonConfig[props.varient].color
-            } ${buttonConfig[props.varient].border}`
-          : `${buttonInvertConfig[props.varient].bgColor} ${
-              buttonInvertConfig[props.varient].color
-            } ${buttonInvertConfig[props.varient].border}`
+          ? `${buttonConfig[props.variant].bgColor} ${
+              buttonConfig[props.variant].color
+            } ${buttonConfig[props.variant].border}`
+          : `${buttonInvertConfig[props.variant].bgColor} ${
+              buttonInvertConfig[props.variant].color
+            } ${buttonInvertConfig[props.variant].border}`
       }`}
     >
       {props.children}

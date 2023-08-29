@@ -1,5 +1,3 @@
-import { Button } from "@/web/components";
-
 export default function Home() {
   return (
     <>
