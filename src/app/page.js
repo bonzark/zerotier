@@ -1,7 +1,6 @@
-import Image from 'next/image'
+import { SectionTitle } from "@/web/components";
+import Image from "next/image";
 
 export default function Home() {
-  return (
-    <h1>Home Page</h1>
-  )
+  return <SectionTitle>Home Page</SectionTitle>;
 }
