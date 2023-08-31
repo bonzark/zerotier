@@ -4,4 +4,3 @@ export { Navbar } from "./Navbar";
 export { HeroBanner } from "./HeroBanner";
 export { FeatureSection } from './Features'
 export { WhyUs } from "./WhyUs";
-export { FeatureSection } from "./Features";
