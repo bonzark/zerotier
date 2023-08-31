@@ -1,14 +1,15 @@
 import { PriceTemplate, SectionTitle } from "@/web/components";
+import { pricingData } from "@/web/constants";
 
-export const Pricing = ({ data }) => {
+export const Pricing = () => {
   return (
     <div className="max-w-screen-xl mx-auto py-8 px-4 sm:px-8">
       <div className="py-8">
-        <SectionTitle>{data.title}</SectionTitle>
-        <p className="mb-4 text-[18px] text-center">{data.subtitle}</p>
+        <SectionTitle>{pricingData.title}</SectionTitle>
+        <p className="mb-4 text-[18px] text-center">{pricingData.subtitle}</p>
       </div>
       <div className="flex flex-col lg:flex-row gap-8">
-        {data.templates.map((template, index) => (
+        {pricingData.templates.map((template, index) => (
           <PriceTemplate
             variant={template.variant}
             title={template.title}

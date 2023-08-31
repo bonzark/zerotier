@@ -1,4 +1,4 @@
-import { featuresData, content, pricingData } from "@/web/constants";
+import { featuresData, pricingData } from "@/web/constants";
 import {
   Community,
   NewsLetter,
@@ -10,13 +10,13 @@ import {
   Services,
 } from "@/web/sections";
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <HeroBanner />
-      <WhyUs content={content} />
+      <WhyUs />
       <Testimonial />
-      <FeatureSection features={featuresData} />
+      <FeatureSection />
       <Pricing data={pricingData} />
       <Services />
       <Community />
@@ -24,3 +24,5 @@ export default function Home() {
     </>
   );
 }
+
+export default Home;

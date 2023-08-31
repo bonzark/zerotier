@@ -97,7 +97,7 @@ export const navbarData = [
 
 export const whyUsData = [
   {
-    imageUrl: "./images/img1.webp",
+    imageUrl: "./img1.webp",
     title: "It just works",
     content: [
       "ZeroTier combines the capabilities of <strong>VPN</strong> and <strong>SD-WAN</strong>, simplifying network management. Enjoy flexibility while avoiding costly hardware vendor lock in.",
@@ -108,7 +108,7 @@ export const whyUsData = [
     screen: true,
   },
   {
-    imageUrl: "./images/img2.webp",
+    imageUrl: "./img2.webp",
     title: "Speed, flexibility, and security",
     content: [
       "Set up ZeroTier in minutes with remote, automated deployment.",
@@ -221,7 +221,7 @@ export const pricingData = {
 };
 export const servicesData = [
   {
-    imageUrl: "./images/img4.webp",
+    imageUrl: "./img4.webp",
     title: "ZeroTier Enterprise",
     content:
       "For high-volume VPN, IoT, edge, embedded networking, multi & hybrid cloud, Infrastructure as Code (IaC), and Commercial Use.",
@@ -231,7 +231,7 @@ export const servicesData = [
     screen: true,
   },
   {
-    imageUrl: "./images/img3.webp",
+    imageUrl: "./img3.webp",
     title: "Service Providers",
     content:
       "For hardware and software companies interested in embedding or integrating the ZeroTier platform within their service offering, as well as enterprise-facing channels including Managed Service Providers (MSPs), Resellers, and Systems Integrators.",

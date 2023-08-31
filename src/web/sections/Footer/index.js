@@ -108,7 +108,7 @@ export const Footer = () => {
                       <Link
                         href={link.url}
                         key={`${section.title}-link-${index}${linkIndex}`}
-                        className="text-[18px] hover:text-[#ffb441] transition-colors duration-1000"
+                        className="text-[18px] w-max hover:text-[#ffb441] transition-colors duration-200"
                       >
                         {link.text}
                       </Link>
