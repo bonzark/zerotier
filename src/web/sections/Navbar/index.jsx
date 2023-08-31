@@ -22,8 +22,8 @@ export const Navbar = () => {
 
   return (
     <>
-      <div className="container mx-auto">
-        <nav className="bg-transparent border-gray-200 ">
+      <div className="absolute top-0 w-full z-[111]">
+        <nav className="container mx-auto bg-transparent border-gray-200 ">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="#" className="flex items-center">
               <svg
