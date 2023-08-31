@@ -1,4 +1,3 @@
-import { featuresData, pricingData } from "@/web/constants";
 import {
   Community,
   NewsLetter,
@@ -17,7 +16,7 @@ const Home = () => {
       <WhyUs />
       <Testimonial />
       <FeatureSection />
-      <Pricing data={pricingData} />
+      <Pricing />
       <Services />
       <Community />
       <NewsLetter />

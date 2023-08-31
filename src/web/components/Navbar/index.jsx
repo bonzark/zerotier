@@ -2,7 +2,7 @@
 import { navbarData } from "@/web/constants";
 import Link from "next/link";
 import React, { useState } from "react";
-import { Button } from "../../components";
+import { Button } from "../Button";
 
 export const Navbar = () => {
   const [dropdown, setDropdown] = useState("");

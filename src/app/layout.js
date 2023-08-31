@@ -1,8 +1,8 @@
 import Head from 'next/head';
-import { Navbar } from "@/web/sections";
 import "./globals.css";
 import { Inter } from "next/font/google";
-import { Footer } from "@/web/sections";
+import { Footer } from '@/web/components';
+import { Navbar } from '@/web/components/Navbar';
 
 const inter = Inter({ subsets: ["latin"] });
 
