@@ -1,0 +1,10 @@
+.icons {
+  filter: invert(100%) sepia(21%) saturate(0%) hue-rotate(302deg)
+    brightness(102%) contrast(106%);
+  transition: all 700ms linear;
+}
+
+.icons:hover {
+  filter: invert(17%) sepia(100%) saturate(3314%) hue-rotate(245deg)
+    brightness(83%) contrast(91%);
+}
