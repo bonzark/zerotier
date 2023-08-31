@@ -16,7 +16,7 @@ const RootLayout = ({ children }) => {
       <Head>
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
-      <body className={inter.className}>
+      <body className={`${inter.className} text-white`}>
         <Navbar />
         {children}
         <Footer />
