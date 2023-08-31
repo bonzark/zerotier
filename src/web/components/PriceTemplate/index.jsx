@@ -23,7 +23,7 @@ export const PriceTemplate = ({
   };
   return (
     <div
-      className={`bg-[#262626] py-8 px-4 rounded-3xl ${templateConfig[variant].border}`}
+      className={`bg-[#262626] py-8 px-4 rounded-3xl grow basis-0 ${templateConfig[variant].border}`}
     >
       <img
         src={templateConfig[variant].icon}

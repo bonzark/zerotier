@@ -1,6 +1,6 @@
 import { SectionTitle } from "@/web/components";
-import { content } from "@/web/constants";
-import { WhyUs } from "@/web/sections";
+import { content, pricingData } from "@/web/constants";
+import { Pricing, WhyUs } from "@/web/sections";
 import { featuresData } from "@/web/constants";
 import { FeatureSection, Testimonial } from "@/web/sections";
 import Image from "next/image";
@@ -12,6 +12,7 @@ export default function Home() {
       <WhyUs content={content} />
       <Testimonial />
       <FeatureSection features={featuresData} />
+      <Pricing data={pricingData} />
     </>
   );
 }

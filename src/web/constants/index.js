@@ -161,3 +161,61 @@ export const featuresData = [
     ],
   },
 ];
+
+export const pricingData = {
+  title: "Pricing",
+  subtitle: "ZeroTier makes networking easy for everyone - anywhere.",
+  templates: [
+    {
+      title: "Basic",
+      subtitle: "For Everyone / ZeroTier Hosted Controller",
+      variant: "white",
+      bullets: [
+        "✓ 1 Admin",
+        "✓ 25 Nodes",
+        "✓ Unlimited Networks",
+        "✖ Business SSO: n/a",
+        "✓ Community Support",
+        "FREE",
+      ],
+      button: {
+        text: "Free Sign Up",
+        url: "/",
+      },
+    },
+    {
+      title: "Professional",
+      subtitle: "Licensed Only For Individuals and Testing",
+      variant: "yellow",
+      bullets: [
+        "✓ Admins | $10 USD/mo each",
+        "✓ 25 Node Packs | $5 USD/mo",
+        "✓ Unlimited Networks",
+        "✓ Business SSO | $5 USD/mo per seat",
+        "✓ Community Support",
+        "Starting at $5 USD/month",
+      ],
+      button: {
+        text: "Sign Up",
+        url: "/",
+      },
+    },
+    {
+      title: "Business",
+      subtitle: "Licensed for Commercial Deployments",
+      variant: "purple",
+      bullets: [
+        "Use Cases Include:",
+        "∙ IoT",
+        "∙ SD-WAN",
+        "∙ VPN",
+        "∙ Remote Monitoring and Management",
+        "Contact Sales for Pricing",
+      ],
+      button: {
+        text: "Contact Sales",
+        url: "/",
+      },
+    },
+  ],
+};
