@@ -1,3 +1,50 @@
+export const footerData = {
+  description: "Securely Connecting The World's Devices.",
+  linkSections: [
+    {
+      title: "GET STARTED",
+      links: [
+        { text: "Download", url: "/" },
+        { text: "GitHub", url: "/" },
+        { text: "SDK", url: "/" },
+        { text: "Partners", url: "/" },
+      ],
+    },
+    {
+      title: "SUPPORT",
+      links: [
+        { text: "Documentation", url: "/" },
+        { text: "Knowledge Base", url: "/" },
+        { text: "Community", url: "/" },
+        { text: "Getting Started", url: "/" },
+      ],
+    },
+    {
+      title: "COMPANY",
+      links: [
+        { text: "Contact", url: "/" },
+        { text: "About Us", url: "/" },
+        { text: "Careers", url: "/" },
+        { text: "Blog", url: "/" },
+        { text: "Media Kit", url: "/" },
+      ],
+    },
+  ],
+  socialIcons: [
+    { src: "./github.svg", alt: "github", url: "/" },
+    { src: "./linkedin.svg", alt: "linkedin", url: "/" },
+    { src: "./youtube.svg", alt: "youtube", url: "/" },
+    { src: "./facebook.svg", alt: "facebook", url: "/" },
+    { src: "./twitter.svg", alt: "twitter", url: "/" },
+    { src: "./mastodon.svg", alt: "mastodon", url: "/" },
+  ],
+  bottomLinks: [
+    { text: "Terms", url: "/" },
+    { text: "Privacy Policy", url: "/" },
+  ],
+  copyRightText: "© 2023 ZeroTier, Inc. All rights reserved.",
+};
+
 export const testimonial = [
   {
     imgPath:
@@ -18,8 +65,9 @@ export const testimonial = [
       "https://images.ctfassets.net/upz5g6ntpb42/52S7Xto1wDBF6S1tIuNtPN/032877cb3e351b4ed9dcda47eea933fc/user-icon.png?w=256&h=256&q=80&fm=webp",
     content:
       "Loft Orbital uses ZeroTier to improve interoperability between its offices in the United States and France. It connects our engineers to key resources quickly and easily, which allows our team to focus on making space simple.",
-    name: "Peter Boin, Principal Software Engineer, Allume Energy",}];
-
+    name: "Peter Boin, Principal Software Engineer, Allume Energy",
+  },
+];
 
 export const navbarData = [
   {
@@ -44,6 +92,33 @@ export const navbarData = [
   {
     name: "Support",
     dropdown: true,
+  },
+];
+
+export const whyUsData = [
+  {
+    imageUrl: "./images/img1.webp",
+    title: "It just works",
+    content: [
+      "ZeroTier combines the capabilities of <strong>VPN</strong> and <strong>SD-WAN</strong>, simplifying network management. Enjoy flexibility while avoiding costly hardware vendor lock in.",
+    ],
+    buttonText: "Learn More >",
+    link: "/",
+    reverse: true,
+    screen: true,
+  },
+  {
+    imageUrl: "./images/img2.webp",
+    title: "Speed, flexibility, and security",
+    content: [
+      "Set up ZeroTier in minutes with remote, automated deployment.",
+      "Emulates Layer 2 Ethernet with multipath, multicast, and bridging capabilities.",
+      "ZeroTier's zero-trust networking solution provides scalable security with 256-bit end-to-end encryption.",
+    ],
+    buttonText: "Get Zero Tier",
+    link: "/",
+    reverse: false,
+    screen: false,
   },
 ];
 
