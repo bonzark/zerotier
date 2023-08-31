@@ -162,11 +162,68 @@ export const featuresData = [
   },
 ];
 
+export const pricingData = {
+  title: "Pricing",
+  subtitle: "ZeroTier makes networking easy for everyone - anywhere.",
+  templates: [
+    {
+      title: "Basic",
+      subtitle: "For Everyone / ZeroTier Hosted Controller",
+      variant: "white",
+      bullets: [
+        "✓ 1 Admin",
+        "✓ 25 Nodes",
+        "✓ Unlimited Networks",
+        "✖ Business SSO: n/a",
+        "✓ Community Support",
+        "FREE",
+      ],
+      button: {
+        text: "Free Sign Up",
+        url: "/",
+      },
+    },
+    {
+      title: "Professional",
+      subtitle: "Licensed Only For Individuals and Testing",
+      variant: "yellow",
+      bullets: [
+        "✓ Admins | $10 USD/mo each",
+        "✓ 25 Node Packs | $5 USD/mo",
+        "✓ Unlimited Networks",
+        "✓ Business SSO | $5 USD/mo per seat",
+        "✓ Community Support",
+        "Starting at $5 USD/month",
+      ],
+      button: {
+        text: "Sign Up",
+        url: "/",
+      },
+    },
+    {
+      title: "Business",
+      subtitle: "Licensed for Commercial Deployments",
+      variant: "purple",
+      bullets: [
+        "Use Cases Include:",
+        "∙ IoT",
+        "∙ SD-WAN",
+        "∙ VPN",
+        "∙ Remote Monitoring and Management",
+        "Contact Sales for Pricing",
+      ],
+      button: {
+        text: "Contact Sales",
+        url: "/",
+      },
+    },
+  ],
+};
 export const servicesData = [
   {
     imageUrl: "./images/img4.webp",
     title: "ZeroTier Enterprise",
-    content: 
+    content:
       "For high-volume VPN, IoT, edge, embedded networking, multi & hybrid cloud, Infrastructure as Code (IaC), and Commercial Use.",
     buttonText: "Contact Sales",
     link: "/",
@@ -176,7 +233,7 @@ export const servicesData = [
   {
     imageUrl: "./images/img3.webp",
     title: "Service Providers",
-    content: 
+    content:
       "For hardware and software companies interested in embedding or integrating the ZeroTier platform within their service offering, as well as enterprise-facing channels including Managed Service Providers (MSPs), Resellers, and Systems Integrators.",
     buttonText: "Contact SP Sales",
     link: "/",
