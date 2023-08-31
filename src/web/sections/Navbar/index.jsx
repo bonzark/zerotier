@@ -23,7 +23,7 @@ export const Navbar = () => {
   return (
     <>
       <div className="absolute top-0 w-full z-[111]">
-        <nav className="container mx-auto bg-transparent border-gray-200 ">
+        <nav className="max-w-screen-xl mx-auto bg-transparent border-gray-200 ">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="#" className="flex items-center">
               <svg
@@ -109,12 +109,12 @@ export const Navbar = () => {
               </svg>
             </a>
             <div className="flex gap-[10px]">
-              <div className="block md:hidden">
+              <div className="block lg:hidden">
                 <Button variant={"yellow"}>Sign up</Button>
               </div>
               <button
                 onClick={handleNav}
-                className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
               >
                 <span className="sr-only">Open main menu</span>
                 {navOpen ? (
@@ -125,9 +125,9 @@ export const Navbar = () => {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   >
                     <line x1="18" y1="6" x2="6" y2="18"></line>
                     <line x1="6" y1="6" x2="18" y2="18"></line>
@@ -140,9 +140,9 @@ export const Navbar = () => {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   >
                     <line x1="3" y1="12" x2="21" y2="12"></line>
                     <line x1="3" y1="6" x2="21" y2="6"></line>
@@ -152,13 +152,12 @@ export const Navbar = () => {
               </button>
             </div>
             <div
-              className={`w-full md:block md:w-auto ${navOpen ? "" : "hidden"}`}
+              className={`w-full lg:block lg:w-auto ${navOpen ? "" : "hidden"}`}
               id="navbar-dropdown"
             >
               <ul
-                className={`flex flex-col font-medium p-4 md:p-0 mt-4 gap-[8px] rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0  bg-[#1a1a1a] ${
-                  navOpen ? "h-[80vh] w-full left-0 absolute top-15" : ""
-                }`}
+                className={`flex flex-col font-medium p-4 md:p-0 mt-4 gap-[8px] rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0  bg-[#1a1a1a] ${navOpen ? "h-screen w-full left-0 absolute top-15" : ""
+                  }`}
               >
                 {navbarData.map((i, index) =>
                   i.dropdown ? (
@@ -241,7 +240,7 @@ export const Navbar = () => {
               </ul>
             </div>
 
-            <div className="hidden md:block">
+            <div className="hidden lg:block">
               <Button variant={"ghost"}>Login</Button>
               <Button variant={"yellow"}>Sign up</Button>
             </div>
