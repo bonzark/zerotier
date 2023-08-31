@@ -113,7 +113,7 @@ export const whyUsData = [
     content: [
       "Set up ZeroTier in minutes with remote, automated deployment.",
       "Emulates Layer 2 Ethernet with multipath, multicast, and bridging capabilities.",
-      "ZeroTier's zero-trust networking solution provides scalable security with 256-bit end-to-end encryption.</p>",
+      "ZeroTier's zero-trust networking solution provides scalable security with 256-bit end-to-end encryption.",
     ],
     buttonText: "Get Zero Tier",
     link: "/",
@@ -159,5 +159,28 @@ export const featuresData = [
       "Develop and manage products or services running on their own decentralized networks",
       "Create 4G/5G-capable secure networks for any IoT, edge or embedded device that can operate on 64MB of RAM",
     ],
+  },
+];
+
+export const servicesData = [
+  {
+    imageUrl: "./images/img4.webp",
+    title: "ZeroTier Enterprise",
+    content: 
+      "For high-volume VPN, IoT, edge, embedded networking, multi & hybrid cloud, Infrastructure as Code (IaC), and Commercial Use.",
+    buttonText: "Contact Sales",
+    link: "/",
+    reverse: false,
+    screen: true,
+  },
+  {
+    imageUrl: "./images/img3.webp",
+    title: "Service Providers",
+    content: 
+      "For hardware and software companies interested in embedding or integrating the ZeroTier platform within their service offering, as well as enterprise-facing channels including Managed Service Providers (MSPs), Resellers, and Systems Integrators.",
+    buttonText: "Contact SP Sales",
+    link: "/",
+    reverse: true,
+    screen: false,
   },
 ];

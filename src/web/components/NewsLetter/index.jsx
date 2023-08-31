@@ -1,10 +1,13 @@
 export const NewsLetter = () => {
-    return (
-      <>
-        <div className="max-w-[1216px] mx-auto bg-[#000]">
-          <div className="flex flex-col sm:flex-row gap-4 p-9 rounded-3xl">
+  return (
+    <>
+      <div className="px-4 lg-px-0">
+        <div className="max-w-[1216px] mx-auto bg-[#000] rounded-3xl ">
+          <div className="flex flex-col sm:flex-row gap-4 p-9 ">
             <div className="text-left text-[#fff]">
-              <div className="mb-0 text-2xl tracking-wide">Newsletter Signup</div>
+              <div className="mb-0 text-2xl tracking-wide">
+                Newsletter Signup
+              </div>
               <div className="mb-2 text-lg tracking-wide">
                 Join over 300,000 community members worldwide and receive the
                 latest news from Team ZeroTier.
@@ -26,7 +29,7 @@ export const NewsLetter = () => {
             </div>
           </div>
         </div>
-      </>
-    );
-  };
-  
+      </div>
+    </>
+  );
+};

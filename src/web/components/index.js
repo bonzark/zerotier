@@ -5,3 +5,5 @@ export { TestimonialCard } from "./TestimonialCard";
 export { NewsLetter } from "./NewsLetter";
 export { FeatureCard } from "./FeatureCard";
 export { Community } from "./Community";
+// export { FeatureCard } from "./FeatureCard";
+export { ServicesCard } from "./ServicesCard";
