@@ -46,3 +46,43 @@ export const navbarData = [
     dropdown: true,
   },
 ];
+
+export const featuresData = [
+  {
+    src: "./cloud-icon.webp",
+    title: "Individuals",
+    data: [
+      "Access your computers, NAS, home automation, IP cameras, ham radios or other devices from anywhere",
+      "Conveniently share files and data, or even play LAN games with others",
+      "Manage secure network access to users of choice",
+    ],
+  },
+  {
+    src: "./devops-icon.webp",
+    title: "IT Teams",
+    data: [
+      "Simplify your network stack by unifying VPNs, VLANs, and SD-WANs with one solution",
+      "Build, manage, and observe any number of remote, on premise, or cloud networks with one management interfac",
+      "Easily provision remote access for all of your users",
+    ],
+  },
+  {
+    src: "./game-icon.webp",
+    title: "DevOps",
+    data: [
+      "Quickly build backplane networks spanning multiple cloud providers",
+      "Save on performance, storage, and bandwidth",
+      "Administrate and debug from anywhere",
+      "Secure corporate network overlay and failover layer",
+    ],
+  },
+  {
+    src: "./global-network.webp",
+    title: "Embedded",
+    data: [
+      "Enjoy vastly superior network control and functionality",
+      "Develop and manage products or services running on their own decentralized networks",
+      "Create 4G/5G-capable secure networks for any IoT, edge or embedded device that can operate on 64MB of RAM",
+    ],
+  },
+];
