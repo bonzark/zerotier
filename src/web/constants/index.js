@@ -161,3 +161,26 @@ export const featuresData = [
     ],
   },
 ];
+
+export const servicesData = [
+  {
+    imageUrl: "./images/img4.webp",
+    title: "ZeroTier Enterprise",
+    content: 
+      "For high-volume VPN, IoT, edge, embedded networking, multi & hybrid cloud, Infrastructure as Code (IaC), and Commercial Use.",
+    buttonText: "Contact Sales",
+    link: "/",
+    reverse: false,
+    screen: true,
+  },
+  {
+    imageUrl: "./images/img3.webp",
+    title: "Service Providers",
+    content: 
+      "For hardware and software companies interested in embedding or integrating the ZeroTier platform within their service offering, as well as enterprise-facing channels including Managed Service Providers (MSPs), Resellers, and Systems Integrators.",
+    buttonText: "Contact SP Sales",
+    link: "/",
+    reverse: true,
+    screen: false,
+  },
+];
