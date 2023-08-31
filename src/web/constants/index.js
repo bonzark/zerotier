@@ -18,8 +18,9 @@ export const testimonial = [
       "https://images.ctfassets.net/upz5g6ntpb42/52S7Xto1wDBF6S1tIuNtPN/032877cb3e351b4ed9dcda47eea933fc/user-icon.png?w=256&h=256&q=80&fm=webp",
     content:
       "Loft Orbital uses ZeroTier to improve interoperability between its offices in the United States and France. It connects our engineers to key resources quickly and easily, which allows our team to focus on making space simple.",
-    name: "Peter Boin, Principal Software Engineer, Allume Energy",}];
-
+    name: "Peter Boin, Principal Software Engineer, Allume Energy",
+  },
+];
 
 export const navbarData = [
   {
@@ -63,15 +64,15 @@ export const whyUsData = [
     imageUrl: "./images/img2.webp",
     title: "Speed, flexibility, and security",
     content: [
-      "Set up ZeroTier in minutes with remote, automated deployment.", 
-      "Emulates Layer 2 Ethernet with multipath, multicast, and bridging capabilities.", 
-      "ZeroTier's zero-trust networking solution provides scalable security with 256-bit end-to-end encryption.</p>",
+      "Set up ZeroTier in minutes with remote, automated deployment.",
+      "Emulates Layer 2 Ethernet with multipath, multicast, and bridging capabilities.",
+      "ZeroTier's zero-trust networking solution provides scalable security with 256-bit end-to-end encryption.",
     ],
     buttonText: "Get Zero Tier",
     link: "/",
     reverse: false,
     screen: false,
-  }
+  },
 ];
 
 export const featuresData = [
@@ -111,5 +112,28 @@ export const featuresData = [
       "Develop and manage products or services running on their own decentralized networks",
       "Create 4G/5G-capable secure networks for any IoT, edge or embedded device that can operate on 64MB of RAM",
     ],
+  },
+];
+
+export const servicesData = [
+  {
+    imageUrl: "./images/img4.webp",
+    title: "ZeroTier Enterprise",
+    content: 
+      "For high-volume VPN, IoT, edge, embedded networking, multi & hybrid cloud, Infrastructure as Code (IaC), and Commercial Use.",
+    buttonText: "Contact Sales",
+    link: "/",
+    reverse: false,
+    screen: true,
+  },
+  {
+    imageUrl: "./images/img3.webp",
+    title: "Service Providers",
+    content: 
+      "For hardware and software companies interested in embedding or integrating the ZeroTier platform within their service offering, as well as enterprise-facing channels including Managed Service Providers (MSPs), Resellers, and Systems Integrators.",
+    buttonText: "Contact SP Sales",
+    link: "/",
+    reverse: true,
+    screen: false,
   },
 ];
