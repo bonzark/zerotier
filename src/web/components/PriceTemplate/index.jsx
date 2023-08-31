@@ -23,20 +23,22 @@ export const PriceTemplate = ({
   };
   return (
     <div
-      className={`bg-[#262626] py-8 px-4 rounded-3xl grow basis-0 ${templateConfig[variant].border}`}
+      className={`bg-[#262626] py-8 px-4 rounded-3xl grow basis-0 flex flex-col justify-between ${templateConfig[variant].border}`}
     >
-      <img
-        src={templateConfig[variant].icon}
-        alt={`${variant}-icon`}
-        className="mb-4 mx-auto max-w-[64px] h-auto"
-      />
-      <span className="text-[30px] font-semibold mb-4 block text-center">
-        {title}
-      </span>
-      <span className="text-[18px] font-normal mb-4 block text-center">
-        {subtitle}
-      </span>
-      <div className="w-full text-center mb-8">{children}</div>
+      <div>
+        <img
+          src={templateConfig[variant].icon}
+          alt={`${variant}-icon`}
+          className="mb-4 mx-auto max-w-[64px] h-auto"
+        />
+        <span className="text-[30px] font-semibold mb-4 block text-center">
+          {title}
+        </span>
+        <span className="text-[18px] font-normal mb-4 block text-center">
+          {subtitle}
+        </span>
+        <div className="w-full text-center mb-8">{children}</div>
+      </div>
       <div className="my-2 block text-center">
         <Button variant={variant} type="button">
           {buttonText}

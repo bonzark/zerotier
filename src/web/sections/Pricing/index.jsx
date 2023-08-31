@@ -17,12 +17,14 @@ export const Pricing = ({ data }) => {
             key={`template-${index}`}
           >
             <div>
-              <p className="my-[18px]">✓ 1 Admin</p>
-              <p className="my-[18px]">✓ 25 Nodes</p>
-              <p className="my-[18px]">✓ Unlimited Networks</p>
-              <p className="my-[18px]">✖ Business SSO: n/a</p>
-              <p className="my-[18px]">✓ Community Support</p>
-              <p className="my-[18px]">FREE</p>
+              {template.bullets.map((bullet, bulletIndex) => (
+                <p
+                  key={`${template.title}-${index}${bulletIndex}`}
+                  className="my-[18px]"
+                >
+                  {bullet}
+                </p>
+              ))}
             </div>
           </PriceTemplate>
         ))}
