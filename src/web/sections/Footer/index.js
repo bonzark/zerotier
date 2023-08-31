@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const Footer = () => {
   return (
-    <div className="max-w-screen-xl mx-auto">
+    <div className="max-w-screen-xl mx-auto py-8">
       <div className="flex">
         <div className="w-2/4">
           <div className="text-[16px] mb-4">
