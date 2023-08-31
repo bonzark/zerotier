@@ -113,7 +113,7 @@ export const whyUsData = [
     content: [
       "Set up ZeroTier in minutes with remote, automated deployment.",
       "Emulates Layer 2 Ethernet with multipath, multicast, and bridging capabilities.",
-      "ZeroTier's zero-trust networking solution provides scalable security with 256-bit end-to-end encryption.</p>",
+      "ZeroTier's zero-trust networking solution provides scalable security with 256-bit end-to-end encryption.",
     ],
     buttonText: "Get Zero Tier",
     link: "/",
