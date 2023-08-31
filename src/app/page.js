@@ -1,16 +1,26 @@
-import { SectionTitle } from "@/web/components";
-import { HeroBanner } from "@/web/sections";
-import { WhyUs } from "@/web/sections";
-import { FeatureSection, Testimonial } from "@/web/sections";
+import { featuresData, pricingData } from "@/web/constants";
+import {
+  Community,
+  NewsLetter,
+  Pricing,
+  HeroBanner,
+  FeatureSection,
+  Testimonial,
+  WhyUs,
+  Services,
+} from "@/web/sections";
 
 const Home = () => {
   return (
     <>
       <HeroBanner />
-      <SectionTitle>Home Page</SectionTitle>
       <WhyUs />
       <Testimonial />
       <FeatureSection />
+      <Pricing data={pricingData} />
+      <Services />
+      <Community />
+      <NewsLetter />
     </>
   );
 }

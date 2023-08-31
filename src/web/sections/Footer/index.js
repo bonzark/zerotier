@@ -4,9 +4,9 @@ import Link from "next/link";
 
 export const Footer = () => {
   return (
-    <div className="max-w-screen-xl mx-auto py-8">
-      <div className="flex">
-        <div className="w-2/4">
+    <div className="max-w-screen-xl mx-auto py-8 px-4 lg:px-8">
+      <div className="flex flex-col md:flex-row">
+        <div className="w-full mb-4 md:mb-0 md:w-1/4 lg:w-2/4 mr-4 lg:mr-0">
           <div className="text-[16px] mb-4">
             <svg
               id="Layer_1"
@@ -92,8 +92,8 @@ export const Footer = () => {
           </div>
           <p className="text-[18px] mb-2">{footerData.description}</p>
         </div>
-        <div className="w-2/4">
-          <div className="flex justify-between w-full">
+        <div className="w-full md:w-3/4 lg:w-2/4">
+          <div className="flex justify-between w-full flex-col md:flex-row gap-4 md:gap-0">
             {footerData.linkSections.map((section, index) => {
               return (
                 <div className="pb-5">
@@ -103,12 +103,12 @@ export const Footer = () => {
                   >
                     {section.title}
                   </h6>
-                  <div className="flex flex-col font-normal">
+                  <div className="flex flex-col gap-2 font-normal">
                     {section.links.map((link, linkIndex) => (
                       <Link
                         href={link.url}
                         key={`${section.title}-link-${index}${linkIndex}`}
-                        className="text-[18px] hover:text-[#ffb441] transition-colors duration-1000"
+                        className="text-[18px] w-max hover:text-[#ffb441] transition-colors duration-200"
                       >
                         {link.text}
                       </Link>
@@ -120,14 +120,14 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex gap-8 mb-10">
+      <div className="flex gap-8 mb-10 mt-4 md:mt-0">
         {footerData.socialIcons.map((icon, index) => (
           <Link href={icon.url}>
             <img src={icon.src} alt={icon.alt} className={styles.icons} />
           </Link>
         ))}
       </div>
-      <div className="flex justify-between">
+      <div className="flex justify-between flex-col md:flex-row gap-4 md:gap-0">
         <p className="text-[18px] mb-2">{footerData.copyRightText}</p>
         <div className="flex gap-4">
           {footerData.bottomLinks.map((link, index) => (
