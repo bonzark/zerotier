@@ -1,4 +1,4 @@
-import { Navbar } from "@/web/components";
+import { Navbar } from "@/web/sections";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import { Footer } from "@/web/sections";
