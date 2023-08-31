@@ -1,8 +1,13 @@
 import { SectionTitle } from "@/web/components";
-import { HeroBanner } from "@/web/sections";
-import { featuresData, content } from "@/web/constants";
-import { FeatureSection, Testimonial, WhyUs, Services } from "@/web/sections";
-import Image from "next/image";
+import { featuresData, content, pricingData } from "@/web/constants";
+import {
+  Pricing,
+  HeroBanner,
+  FeatureSection,
+  Testimonial,
+  WhyUs,
+  Services,
+} from "@/web/sections";
 
 export default function Home() {
   return (
@@ -12,6 +17,7 @@ export default function Home() {
       <WhyUs content={content} />
       <Testimonial />
       <FeatureSection features={featuresData} />
+      <Pricing data={pricingData} />
       <Services />
     </>
   );
