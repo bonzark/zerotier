@@ -15,10 +15,10 @@ export const WhyUsCard = ({ img, title, content, reverse, screen, buttonText }) 
           <img src={img} alt="" className="w-full items-center p-10" />
         </div>
         <div className="sm:w-[50%] w-[100%] leading-7 p-10">
-          <h3 className="text-[30px] font-bold py-5">{title}</h3>
+          <h3 className="md:text-[30px] text-[20px]  font-bold py-5">{title}</h3>
           {content?.map((paragraph) => (
             <p key={paragraph}
-              className="text-2xl py-3"
+              className="md:text-2xl text-[18px] py-3"
               dangerouslySetInnerHTML={{ __html: paragraph }}
             />
           ))}
