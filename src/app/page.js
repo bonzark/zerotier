@@ -1,6 +1,4 @@
-import { NewsLetter, SectionTitle } from "@/web/components";
-import { Testimonial } from "@/web/sections";
-import { SectionTitle } from "@/web/components";
+import { Community, NewsLetter, SectionTitle } from "@/web/components";
 import { content } from "@/web/constants";
 import { WhyUs } from "@/web/sections";
 import { featuresData } from "@/web/constants";
@@ -14,6 +12,7 @@ export default function Home() {
       <WhyUs content={content} />
       <Testimonial />
       <FeatureSection features={featuresData} />
+      <Community />
       <NewsLetter />
     </>
   );
