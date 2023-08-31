@@ -4,25 +4,21 @@ import { SectionTitle, TestimonialCard } from "@/web/components";
 
 export const Testimonial = () => {
   return (
-    <>
-      <section>
-        <div>
-          <div className="mb-10">
-            <SectionTitle>
-              Used by the world's most innovative teams
-            </SectionTitle>
-          </div>
-          {testimonial.map((item) => {
-            return (
-              <TestimonialCard
-                name={item.name}
-                content={item.content}
-                img={item.imgPath}
-              />
-            );
-          })}
-        </div>
-      </section>
-    </>
+    <section className="my-[27px]">
+      <div>
+        <SectionTitle>
+          Used by the world's most innovative teams
+        </SectionTitle>
+      </div>
+      {testimonial.map((item) => {
+        return (
+          <TestimonialCard
+            name={item.name}
+            content={item.content}
+            img={item.imgPath}
+          />
+        );
+      })}
+    </section>
   );
 };
